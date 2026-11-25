@@ -8,10 +8,9 @@ import warnings
 
 import einx
 import torch
-import torch.nn as nn
 from einops import einsum, rearrange
 from jaxtyping import Bool, Float, Int
-from torch import Tensor
+from torch import Tensor, nn
 
 from cs336_basics.nn_utils import softmax
 
